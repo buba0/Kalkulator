@@ -1,2 +1,2 @@
 # Kalkulator
-Kalkulator w c++
+### Prosty kalkulator w C++ :)
