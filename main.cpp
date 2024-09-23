@@ -279,6 +279,7 @@ int main() {
     cout << "[6] - Tangens\n";
     cout << "[7] - Cotangens\n";
     cout << "[8] - Twierdzenie Pitagorasa\n";
+    cout << "[0] - Wyjście\n";
     cout << "Wybierz opcję: ";
     cout << "\n#> ";
     cin >> wybor;
@@ -298,6 +299,9 @@ int main() {
         cotangens();
     } else if(wybor == 8){
         pitagoras();
+    } else if(wybor == 0){
+        system("cls");
+        return 0;
     }
 
 
