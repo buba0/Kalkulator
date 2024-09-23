@@ -12,13 +12,13 @@ int trapez(){
     float b = 0;
     float h = 0;
     float x = 0;
-    cout << "WprowadŸ podstawê a: ";
+    cout << "WprowadÅº podstawÄ™ a: ";
     cout << "\n#> ";
     cin >> a;
-    cout << "WprowadŸ podstawê b: ";
+    cout << "WprowadÅº podstawÄ™ b: ";
     cout << "\n#> ";
     cin >> b;
-    cout << "WprowadŸ wysokoœæ h: ";
+    cout << "WprowadÅº wysokoÅ›Ä‡ h: ";
     cout << "\n#> ";
     cin >> h;
     x = 0.5 * (a + b) * h;
@@ -42,24 +42,24 @@ int trojkat(){
     cin >> wybor;
     if (wybor == 1){
         system("cls");
-        cout << "WprowadŸ podstawê a: \n#>";
+        cout << "WprowadÅº podstawÄ™ a: \n#>";
         cin >> a;
-        cout << "WprowadŸ wysokoœæ h: \n#>";
+        cout << "WprowadÅº wysokoÅ›Ä‡ h: \n#>";
         cin >> h;
         tmp = 0.5 * (a * h);
-        cout << "Pole trójkata wynosi: " << tmp << endl;
+        cout << "Pole trÃ³jkata wynosi: " << tmp << endl;
     }
     if (wybor == 2){
         system("cls");
-        cout << "WprowadŸ pierwszy bok: \n#>";
+        cout << "WprowadÅº pierwszy bok: \n#>";
         cin >> a;
-        cout << "WprowadŸ drugi bok: \n#>";
+        cout << "WprowadÅº drugi bok: \n#>";
         cin >> b;
-        cout << "WprowadŸ miarê k¹ta pomiêdzy nimi: \n#>";
+        cout << "WprowadÅº miarÄ™ kÄ…ta pomiÄ™dzy nimi: \n#>";
         cin >> tmp2;
         sins = tmp2*pi/180;
         tmp = (a * b)/2 * sin(sins);
-        cout << "Pole trójkata wynosi: " << tmp << endl;
+        cout << "Pole trÃ³jkata wynosi: " << tmp << endl;
 
     }
 
@@ -70,10 +70,10 @@ int kolo(){
     setlocale(LC_ALL, "");
     float r = 0;
     float tmp = 0;
-    cout << "Wprowadz promieñ: \n#>";
+    cout << "Wprowadz promieÅ„: \n#>";
     cin >> r;
     tmp = pi*(r*r);
-    cout << "Pole ko³a wynosi: " << tmp << endl;
+    cout << "Pole koÅ‚a wynosi: " << tmp << endl;
 }
 
 
@@ -90,15 +90,15 @@ int sinus(){
     float a = 0;
     float b = 0;
     float c = 0;
-    cout << "Z boków? [T/N]\n#>";
+    cout << "Z bokÃ³w? [T/N]\n#>";
         cin >> wybor1;
         switch(wybor1){
             case'T':
             case't':
                 system("cls");
-                cout << "Podaj przyprostok¹tn¹ przeciwleg³¹ do k¹ta\n#>";
+                cout << "Podaj przyprostokÄ…tnÄ… przeciwlegÅ‚Ä… do kÄ…ta\n#>";
                 cin >> a;
-                cout << "Podaj przeciwprostok¹tn¹\n#>";
+                cout << "Podaj przeciwprostokÄ…tnÄ…\n#>";
                 cin >> c;
                 sins = a/c;
                 cout << "Sinus wynosi: " << sins << endl;
@@ -106,7 +106,7 @@ int sinus(){
             case'N':
             case'n':
                 system("cls");
-                cout << "Podaj k¹t\n#>";
+                cout << "Podaj kÄ…t\n#>";
                 cin >> tmp;
                 sins = tmp*pi/180;
                 cout << "Cosinus wynosi: " << sin(sins) << endl;
@@ -127,15 +127,15 @@ int cosinus(){
     float a = 0;
     float b = 0;
     float c = 0;
-    cout << "Z boków? [T/N]\n#>";
+    cout << "Z bokÃ³w? [T/N]\n#>";
         cin >> wybor1;
         switch(wybor1){
             case'T':
             case't':
                 system("cls");
-                cout << "Podaj przyprostok¹tn¹ przyleg³¹ do k¹ta\n#>";
+                cout << "Podaj przyprostokÄ…tnÄ… przylegÅ‚Ä… do kÄ…ta\n#>";
                 cin >> b;
-                cout << "Podaj przeciwprostok¹tn¹\n#>";
+                cout << "Podaj przeciwprostokÄ…tnÄ…\n#>";
                 cin >> c;
                 coss = b/c;
                 cout << "Cosinus wynosi: " << coss << endl;
@@ -143,7 +143,7 @@ int cosinus(){
             case'N':
             case'n':
                 system("cls");
-                cout << "Podaj k¹t\n#>";
+                cout << "Podaj kÄ…t\n#>";
                 cin >> tmp;
                 coss = tmp*pi/180;
                 cout << "Sinus wynosi: " << cos(coss) << endl;
@@ -164,15 +164,15 @@ int tangens(){
     float a = 0;
     float b = 0;
     float c = 0;
-    cout << "Z boków? [T/N]\n#>";
+    cout << "Z bokÃ³w? [T/N]\n#>";
         cin >> wybor1;
         switch(wybor1){
             case'T':
             case't':
                 system("cls");
-                cout << "Podaj przyprostok¹tn¹ przeciwleg³¹ do k¹ta\n#>";
+                cout << "Podaj przyprostokÄ…tnÄ… przeciwlegÅ‚Ä… do kÄ…ta\n#>";
                 cin >> a;
-                cout << "Podaj przyprostok¹tn¹ przyleg³¹ do k¹ta\n#>";
+                cout << "Podaj przyprostokÄ…tnÄ… przylegÅ‚Ä… do kÄ…ta\n#>";
                 cin >> b;
                 tgg = a/b;
                 cout << "Tangens wynosi: " << tgg << endl;
@@ -180,7 +180,7 @@ int tangens(){
             case'N':
             case'n':
                 system("cls");
-                cout << "Podaj k¹t\n#>";
+                cout << "Podaj kÄ…t\n#>";
                 cin >> tmp;
                 tgg = tmp*pi/180;
                 cout << "Sinus wynosi: " << tan(tgg) << endl;
@@ -201,15 +201,15 @@ int cotangens(){
     float a = 0;
     float b = 0;
     float c = 0;
-    cout << "Z boków? [T/N]\n#>";
+    cout << "Z bokÃ³w? [T/N]\n#>";
         cin >> wybor1;
         switch(wybor1){
             case'T':
             case't':
                 system("cls");
-                cout << "Podaj przyprostok¹tn¹ przeciwleg³¹ do k¹ta\n#>";
+                cout << "Podaj przyprostokÄ…tnÄ… przeciwlegÅ‚Ä… do kÄ…ta\n#>";
                 cin >> a;
-                cout << "Podaj przyprostok¹tn¹ przyleg³¹ do k¹ta\n#>";
+                cout << "Podaj przyprostokÄ…tnÄ… przylegÅ‚Ä… do kÄ…ta\n#>";
                 cin >> b;
                 ctgg = b/a;
                 cout << "Tangens wynosi: " << ctgg << endl;
@@ -217,7 +217,7 @@ int cotangens(){
             case'N':
             case'n':
                 system("cls");
-                cout << "Podaj k¹t\n#>";
+                cout << "Podaj kÄ…t\n#>";
                 cin >> tmp;
                 ctgg = tmp*pi/180;
                 float ctan = 1/tan(ctgg);
@@ -234,34 +234,34 @@ int pitagoras(){
     float tmp = 0;
     int wybor1 = 0;
     cout << "Jaka konfiguracja?\n";
-    cout << "[1] - Mam przyprostok¹tn¹ b i przeciwprostok¹tn¹ c, szukam a\n";
-    cout << "[2] - Mam przyprostok¹tn¹ a i przeciwprostok¹tn¹ c, szukam b\n";
-    cout << "[3] - Mam przyprostok¹tn¹ a i b, szukam przeciwprostok¹tnej c\n#>";
+    cout << "[1] - Mam przyprostokÄ…tnÄ… b i przeciwprostokÄ…tnÄ… c, szukam a\n";
+    cout << "[2] - Mam przyprostokÄ…tnÄ… a i przeciwprostokÄ…tnÄ… c, szukam b\n";
+    cout << "[3] - Mam przyprostokÄ…tnÄ… a i b, szukam przeciwprostokÄ…tnej c\n#>";
     cin >> wybor1;
     if(wybor1 == 1){
         system("cls");
-        cout << "WprowadŸ d³ugoœæ przyprostok¹tnej b:\n#>";
+        cout << "WprowadÅº dÅ‚ugoÅ›Ä‡ przyprostokÄ…tnej b:\n#>";
         cin >> b;
-        cout << "WprowadŸ przeciwprostok¹tn¹ c:\n#>";
+        cout << "WprowadÅº przeciwprostokÄ…tnÄ… c:\n#>";
         cin >> c;
         a = sqrt(c*c - b*b);
-        cout << "Przyprostok¹tna a wynosi: " << a << endl;
+        cout << "PrzyprostokÄ…tna a wynosi: " << a << endl;
     } else if(wybor1 == 2){
         system("cls");
-        cout << "WprowadŸ d³ugoœæ przyprostok¹tnej a: \n#>";
+        cout << "WprowadÅº dÅ‚ugoÅ›Ä‡ przyprostokÄ…tnej a: \n#>";
         cin >> a;
-        cout << "WprowadŸ przeciwprostok¹tn¹ c:\n#>";
+        cout << "WprowadÅº przeciwprostokÄ…tnÄ… c:\n#>";
         cin >> c;
         b = sqrt(c*c - a*a);
-        cout << "Przyprostok¹tna b wynosi: " << b << endl;
+        cout << "PrzyprostokÄ…tna b wynosi: " << b << endl;
     } else if(wybor1 == 3){
         system("cls");
-        cout << "WprowadŸ d³ugoœæ przyprostok¹tnej a: \n#>";
+        cout << "WprowadÅº dÅ‚ugoÅ›Ä‡ przyprostokÄ…tnej a: \n#>";
         cin >> a;
-        cout << "WprowadŸ d³ugoœæ przyprostok¹tnej b: \n#>";
+        cout << "WprowadÅº dÅ‚ugoÅ›Ä‡ przyprostokÄ…tnej b: \n#>";
         cin >> b;
         c = sqrt(a*a + b*b);
-        cout << "Przeciwprostok¹tna c wynosi: " << c << endl;
+        cout << "PrzeciwprostokÄ…tna c wynosi: " << c << endl;
     }
 
 
@@ -272,14 +272,14 @@ int main() {
     setlocale(LC_ALL, "");
     int wybor = 0;
     cout << "[1] - Pole trapezu\n";
-    cout << "[2] - Pole trójk¹ta\n";
-    cout << "[3] - Pole ko³a\n";
+    cout << "[2] - Pole trÃ³jkÄ…ta\n";
+    cout << "[3] - Pole koÅ‚a\n";
     cout << "[4] - Sinus\n";
     cout << "[5] - Cosinus\n";
     cout << "[6] - Tangens\n";
     cout << "[7] - Cotangens\n";
     cout << "[8] - Twierdzenie Pitagorasa\n";
-    cout << "Wybierz opcjê: ";
+    cout << "Wybierz opcjÄ™: ";
     cout << "\n#> ";
     cin >> wybor;
     if(wybor == 1){
